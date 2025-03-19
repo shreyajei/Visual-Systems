@@ -11,5 +11,5 @@ The goal of this filter is to apply the Otsu method for image thresholding and t
 
 Otsu method: - This is a nonparametric and unsupervised method of automatic threshold selection for picture segmentation is presented. An optimal threshold is selected by the discriminant criterion, namely, so as to maximize the separability of the resultant classes in gray levels. The procedure uses the zeroth- and the first-order cumulative moments of the gray-level histogram. It is straightforward to extend the method to multithreshold problems. Several experimental results are also presented to support the validity of the method.
 
-![Alt text](images/image 95.png)
+![Alt text](main/image 95.png)
 
