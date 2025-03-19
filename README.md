@@ -15,5 +15,6 @@ Otsu method: - This is a nonparametric and unsupervised method of automatic thre
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/image.png)
 
 ## Code Explaination
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/otsumethod_code.png)
 
 
