@@ -1,4 +1,6 @@
 # Visual Systems: Spring Term Final Project  
+**PHOTO BOOTH**
+
 Serena Sebastian; 
 
 Shreya Jei; CID: 02080949
