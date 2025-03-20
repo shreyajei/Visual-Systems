@@ -9,7 +9,7 @@ Shreya Jei; CID: 02080949
 An interactive photobooth experience using MATLAB was developed, applying eight creative image filters to captured snapshots. These filters include original, blurred, artistic K-means clustering, a thermal imaging like effect, mirrored alien effect, collared outlines, grayscale, and laser-like line detection, each with a playful photobooth-style name. The system integrates facial detection to personalise one line of feedback (overlaid in red), while custom padding adjustments ensure consistent image formatting and the classic photobooth feel. The final output consists of two montage strips displaying four effects each, providing an engaging visual of the user’s image.
 
 ## Final Result
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/final_result.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/final_result.png)
 
 # Instructions
 Before running the code, ensure that MATLAB has the following toolboxes installed:
@@ -29,10 +29,10 @@ The goal of this filter is to apply the Otsu method for image thresholding and t
 
 **Otsu Method**: This is a nonparametric and unsupervised method of automatic threshold selection for picture segmentation is presented. An optimal threshold is selected by the discriminant criterion, namely, so as to maximize the separability of the resultant classes in grey levels. The procedure uses the zeroth- and the first-order cumulative moments of the gray-level histogram. It is straightforward to extend the method to multi-threshold problems. Several experimental results are also presented to support the validity of the method.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/neon_lines.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/neon_lines.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/neonfilter_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/neonfilter_code.png)
 
 ## Filter 2: Cyber Grid
 ### Aim
@@ -42,7 +42,7 @@ The goal of this filter is to apply edge detection using the Canny method, and t
 
 **Hough Transform**: This technique is used to detect simple shapes such as lines, circles, and ellipses within an image. It is particularly useful for line detection in edge-detected images.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/edge_detection.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/edge_detection.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/houghtrasform_code.png)
@@ -53,7 +53,7 @@ The goal of this filter is to create a blur effect by progressively resizing the
 
 **Progressive Resizing**: The captured image is resized multiple times using the imresize function with a scaling factor of 0.5. Each resizing step reduces the image size by half, which inherently applies a lowpass filter (Gaussian) to remove high-frequency details, creating a blur effect.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/blur.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/blur.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/code_blur.png)
@@ -66,7 +66,7 @@ The goal of this filter is to capture an image using a webcam and then apply k-m
 
 **label2rgb Function**: This function maps the label matrix L to an RGB image, assigning a unique colour to each cluster for visualisation purposes.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/artsy.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/artsy.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/artsy_code.png)
@@ -77,7 +77,7 @@ The goal of this filter is to capture an image using a webcam and then create a 
 
 **Flipping**: The fliplr function is used to flip the left half of the image horizontally and merged with the original right half to produce the final mirrored image.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/mirror.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/mirror.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/mirror_code.png)
@@ -90,7 +90,7 @@ The goal of this filter is to apply an erosion operation to highlight specific f
 
 **Erosion**: The imerode function applies the erosion operation using a structuring element. This operation removes pixels from the boundaries of objects, effectively shrinking them and reducing noise.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/grayscale.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/grayscale.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/grayscale_code.png)
@@ -99,7 +99,7 @@ The goal of this filter is to apply an erosion operation to highlight specific f
 ### Aim
 The goal was to create a thermal-like effect by converting the image to grayscale and applying a false-colour colormap. This simulates heat-map visuals commonly used in thermal imaging.
 
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/thermal.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/thermal.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/thermalimage_code.png)
@@ -107,20 +107,20 @@ The goal was to create a thermal-like effect by converting the image to grayscal
 ## Detecting number of faces
 ### Aim
 To detect faces in the image and display a personalised message based on the number of faces detected.
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/number_of_faces.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/number_of_faces.png)
 
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/number_of_faces_code.png)
 
 # Evaluation of the Application 
 Before settling on the photobooth idea, initial efforts were made to detect objects using AlexNet and GoogleNet. However, due to inaccuracies in these models, this approach was not pursued further. Additionally, the application lacked interactivity and excitement, as it did not engage the user effectively.
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/objects_detection.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/objects_detection.png)
 
 We then shifted our focus to implementing a photobooth, inspired by the Apple's photobooth app. Our goal was to create personalised filters using the knowledge gained from the Labs we did and to add our own elements of fun and customisation. 
 The application can print two strips, similar to existing photobooth formats, allowing users to view their photos. The preview camera enables users to pose before the photo is taken, and the results are produced immediately. When testing the program with friends, we found that they enjoyed the experience and often commented on their favourite filters, highlighting the interactives of the application
 
 One feature we attempted to implement but could not complete in time was emotion detection. The idea was to detect the user's emotions before taking the photo to ensure they were in a “happy" emotional state before clicking the photo. Although the code was partially implemented and worked at times, the emotion detection was mostly inaccurate, thus we decided not to include it in the final application. However, this would be a valuable feature to include in the next iteration.
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/emotion_detection.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/emotion_detection.png)
 
 # Personal Reflections
 ## **Serena**
