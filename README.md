@@ -8,7 +8,7 @@ Shreya Jei; CID: 02080949
 # Description
 An interactive photobooth experience using MATLAB was developed, applying eight creative image filters to captured snapshots. These filters include original, blurred, artistic K-means clustering, a thermal imaging like effect, mirrored alien effect, collared outlines, grayscale, and laser-like line detection, each with a playful photobooth-style name. The system integrates facial detection to personalise one line of feedback (overlaid in red), while custom padding adjustments ensure consistent image formatting and the classic photobooth feel. The final output consists of two montage strips displaying four effects each, providing an engaging visual of the user’s image.
 
-# Final Result
+## Final Result
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/final_result.png)
 
 # Instructions
@@ -22,7 +22,7 @@ For best results:
 
 * Ensure the camera is functional and accessible via MATLAB
 
-# Evidence and Explanation of Filters Working
+# Evidence and Explanation of the Application Working
 ## Filter 1: Neon Sketch
 ### Aim
 The goal of this filter is to apply the Otsu method for image thresholding and then use morphological operations to find the boundaries of the face and background in the image into RGB format while preserving the original image's colour information
@@ -104,12 +104,12 @@ The goal was to create a thermal-like effect by converting the image to grayscal
 ### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/thermalimage_code.png)
 
-# Detecting number of faces
-## Aim
+## Detecting number of faces
+### Aim
 To detect faces in the image and display a personalised message based on the number of faces detected.
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/number_of_faces.png)
 
-## Code Explanation
+### Code Explanation
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/number_of_faces_code.png)
 
 # Evaluation of the Application 
