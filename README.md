@@ -45,7 +45,7 @@ The goal of this filter is to apply edge detection using the Canny method, and t
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/edge_detection.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/houghtrasform_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/houghtrasform_code.png)
 
 ## Filter 3: Blur
 ### Aim 
@@ -56,7 +56,7 @@ The goal of this filter is to create a blur effect by progressively resizing the
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/blur.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/code_blur.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/code_blur.png)
 
 ## Filter 4: Artsy
 ### Aim
@@ -69,7 +69,7 @@ The goal of this filter is to capture an image using a webcam and then apply k-m
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/artsy.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/artsy_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/artsy_code.png)
 
 ## Filter 5: Alien Invasion
 ### Aim
@@ -80,7 +80,7 @@ The goal of this filter is to capture an image using a webcam and then create a 
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/mirror.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/mirror_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/mirror_code.png)
 
 ## Filter 6: Retro Noir
 ### Aim
@@ -93,7 +93,7 @@ The goal of this filter is to apply an erosion operation to highlight specific f
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/grayscale.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/grayscale_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/grayscale_code.png)
 
 ## Filter 7: Heat Vision
 ### Aim
@@ -102,7 +102,7 @@ The goal was to create a thermal-like effect by converting the image to grayscal
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/thermal.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/thermalimage_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/thermalimage_code.png)
 
 ## Detecting number of faces
 ### Aim
@@ -110,7 +110,7 @@ To detect faces in the image and display a personalised message based on the num
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/number_of_faces.png)
 
 ### Code Explanation
-![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/number_of_faces_code.png)
+![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Code_Snippets/number_of_faces_code.png)
 
 # Evaluation of the Application 
 Before settling on the photobooth idea, initial efforts were made to detect objects using AlexNet and GoogleNet. However, due to inaccuracies in these models, this approach was not pursued further. Additionally, the application lacked interactivity and excitement, as it did not engage the user effectively.
