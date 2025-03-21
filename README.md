@@ -97,7 +97,7 @@ The goal of this filter is to apply an erosion operation to highlight specific f
 
 ## Filter 7: Heat Vision
 ### Aim
-The goal was to create a thermal-like effect by converting the image to grayscale and applying a false-colour colormap. This simulates heat-map visuals commonly used in thermal imaging.
+The goal of this filter is to create a thermal-like effect by converting the image to grayscale and applying a false-colour colormap. This simulates heat-map visuals commonly used in thermal imaging.
 
 ![Alt text](https://github.com/shreyajei/Visual-Systems/blob/main/Images/thermal.png)
 
